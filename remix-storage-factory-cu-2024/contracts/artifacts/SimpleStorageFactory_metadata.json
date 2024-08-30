@@ -1,0 +1,117 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleStorageContracts",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					}
+				],
+				"name": "sfGet",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageFavoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"remix-storage-factory-cu-2024/contracts/SimpleStorageFactory.sol": "SimpleStorageFactory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"remix-storage-factory-cu-2024/contracts/SimpleStorage.sol": {
+			"keccak256": "0x9e0fef3e91be9ec9300127281c39581fb0d3839f801969f22f24a0252447e378",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b517709bd2fd15a71ea08222fb582b70d8d1661316235d3497756c9d96b956bb",
+				"dweb:/ipfs/QmVnxw7xzufiWZ4CtDpP79iwz4eaHRbjSHjYwMz5AepSbT"
+			]
+		},
+		"remix-storage-factory-cu-2024/contracts/SimpleStorageFactory.sol": {
+			"keccak256": "0xf3347b9c06e9da21f342c15ea2eff70b5a355e673df6cf3bb8019fb2cf84d2ea",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://40dfa1a0eafc4f7d84d418742557bfc4212984bc48009acacd52a4197e5aa812",
+				"dweb:/ipfs/QmRGmwv2spBKVSC3ZdPB2yB9S9dvuUoLJYdUfWNfC1wJTq"
+			]
+		}
+	},
+	"version": 1
+}
